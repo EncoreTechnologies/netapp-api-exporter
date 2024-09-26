@@ -3,7 +3,7 @@ package netapp
 import (
 	"strconv"
 
-	n "github.com/pepabo/go-netapp/netapp"
+	n "github.com/EncoreTechnologies/go-netapp/netapp"
 )
 
 type Aggregate struct {
