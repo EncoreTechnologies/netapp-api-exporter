@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/EncoreTechnologies/netapp-api-exporter/pkg/collector"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/sapcc/netapp-api-exporter/pkg/collector"
 	"gopkg.in/alecthomas/kingpin.v2"
 
 	log "github.com/sirupsen/logrus"

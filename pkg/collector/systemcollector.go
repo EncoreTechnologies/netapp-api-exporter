@@ -3,8 +3,8 @@ package collector
 import (
 	"strings"
 
+	"github.com/EncoreTechnologies/netapp-api-exporter/pkg/netapp"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/sapcc/netapp-api-exporter/pkg/netapp"
 	log "github.com/sirupsen/logrus"
 )
 

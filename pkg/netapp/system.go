@@ -3,7 +3,7 @@ package netapp
 import (
 	"fmt"
 
-	n "github.com/pepabo/go-netapp/netapp"
+	n "github.com/EncoreTechnologies/go-netapp/netapp"
 )
 
 func (c *Client) GetSystemVersion() (string, error) {

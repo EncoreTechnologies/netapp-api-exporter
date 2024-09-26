@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/sapcc/netapp-api-exporter/pkg/netapp"
+	"github.com/EncoreTechnologies/netapp-api-exporter/pkg/netapp"
 	"gopkg.in/yaml.v2"
 
 	log "github.com/sirupsen/logrus"
